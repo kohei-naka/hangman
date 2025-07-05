@@ -11,6 +11,7 @@ def hangman():
     letter_board = ["__"] * len(word)
     win = False
     print('Welcome to Hangman')
+    
     while wrong_guesses < len(stages) - 1:
         print('\n')
         guess = input("Guess a letter")
